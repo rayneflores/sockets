@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniChat</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body class="container">
-    <h1 class="mt-5">MiniChat</h1>
+    <h1 class="mt-5">Acceso Denegado</h1>
     <hr>
 
-    <form id="miFormulario">
+    <!--form id="miFormulario">
         <div class="row">
             <div class="col-8" >
                 <input type="text"  id="txtMensaje" placeholder="Mensaje" class="form-control">
@@ -27,11 +28,11 @@
             <ul id="misMensajes" class="mt-2">
             </ul>
         </div>
-    </div>
+    </div-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js" integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script>
+    <!--script>
         const socket = io(`https://sockets-production-df0a.up.railway.app/`);
 
         const formulario = document.querySelector('#miFormulario');
@@ -50,6 +51,6 @@
             mensajes.innerHTML += `<li>${data.msg}</li>`
         });
 
-    </script>
+    </script-->
 </body>
 </html>
